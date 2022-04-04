@@ -1,2 +1,2 @@
-# Talleres-algoritmos-y-programaci🙂n
+# Clase algoritmos y programaci🙂n
 18 ejercicios en PSeInt
