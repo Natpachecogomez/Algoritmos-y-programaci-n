@@ -1,0 +1,5 @@
+X=int(input("Cantidad naranjas: "))
+Y=float(input("Precio docena: "))
+K=float(input("Ingreso total ventas: "))
+pcn=X*(Y/12)
+print("Porcentaje ganancia: ", round((K-pcn)/pcn*100,1), "%")
