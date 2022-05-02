@@ -28,4 +28,3 @@ elif v3>p:
     print("El departamento 3 recibe la bonificación")
     print("Salario total")
     print("Departamento 1: ",s,"\n"+"Departamento 2: ",s,"\n"+"Departamento 3: ",s+s*0.20)
-    
