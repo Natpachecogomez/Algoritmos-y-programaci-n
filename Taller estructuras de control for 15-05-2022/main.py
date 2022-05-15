@@ -85,8 +85,9 @@ for i in archivo:
     a=i.index(":")
     if i[a+2]=="U":
       print(i)
-    else:
+    elif i[a+2]=="U":
       print("En el archivo no hay paises que tanto su nombre como capital empiecen con U")
+      break
 '''
 #En caso de que el ejercicio sea generar dos listas, una de paises y otra de capitales que empiezan con U:
 '''
@@ -212,7 +213,9 @@ for i in archivo:
     lista.append(i[r])
   a="".join(lista)
   if a=="Madagascar":
-    archivo.write(i.replace("rey julien","Antananarivo"))
+    texto=i.replace("Madagascar: rey julien","Madagascar: Antananarivo")
+    print(texto)
+    break
   lista=[]
 '''
 #Agregue un país que no esté en la lista 
