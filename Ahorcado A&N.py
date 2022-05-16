@@ -1,5 +1,5 @@
 import random
-word=["vaca", "tortuga", "cerdo", "ardilla", "foca", "serpiente"]
+word=["vaca", "tortuga", "cerdo", "ardilla", "foca", "serpiente", "bufalo"]
 rand=random.choice(word)
 tries=len(rand)
 list=[]
@@ -14,7 +14,6 @@ for x in range (len(list)):
     aux.append("-")
 
 while tries!=0:
-    tries-=1
     let=input("Letra: ")
     try:
         for i in range(len(list)):
@@ -29,7 +28,11 @@ while tries!=0:
     try:
         p=list.index(let)
     except:
+        tries-=1
         print("La letra no está en la palabra")
+    if aux==list:
+        print("\nYou've won (✿ ◡ ‿ ◡ )")
+        break
 
 if tries==0:
     if aux==list:
