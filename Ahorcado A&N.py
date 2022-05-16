@@ -3,7 +3,7 @@ word=["vaca", "tortuga", "cerdo", "ardilla", "foca", "serpiente"]
 rand=random.choice(word)
 tries=len(rand)
 list=[]
-print(rand)
+print("Welcome o(*￣︶￣*)o let's play a little")
 
 for i in rand:
     list.append(i)
