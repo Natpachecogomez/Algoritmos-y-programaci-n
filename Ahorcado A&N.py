@@ -1,5 +1,5 @@
 import random
-word=["vaca", "tortuga", "cerdo", "ardilla", "foca", "serpiente", "bufalo"]
+word=["vaca", "tortuga", "cerdo", "ardilla", "foca", "serpiente", "bufalo", "lobo", "canguro", "mono", "burro", "chiguiro", "hamster", "gato", "arabella", "pedrito"]
 rand=random.choice(word)
 tries=len(rand)
 list=[]
@@ -25,6 +25,7 @@ while tries!=0:
     except:
         pass
     print(aux)
+    
     try:
         p=list.index(let)
     except:
